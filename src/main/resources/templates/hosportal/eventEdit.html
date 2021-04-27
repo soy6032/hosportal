@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/css/bootstrap.css" th:href="@{/css/bootstrap.css}">
+<link rel="stylesheet" th:href="@{/css/maincss.css}"></link>
+<script src="/js/jquery-3.5.1.js" th:src="@{/js/jquery-3.5.1.js}"></script>
+<script src="/js/popper.min.js" th:src="@{/js/popper.min.js}"></script>
+<script src="/js/bootstrap.js" th:src="@{/js/bootstrap.js}"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+$(document).ready(function() {
+	var eventNo = $("#eventNo").val();
+	
+	$("#btnList").on("click", function() {
+		location.href="/normal/event"
+	});
+	
+	$("#btnUpdate").on("click", function() {
+		$("#method").val("PUT");
+		var frm = $("#frm")[0];
+		frm.action = "/hospital/updateEvent/" + eventNo;
+		frm.submit();
+		alert("수정이 완료되었습니다.");
+	});
+});
+</script>
+</head>
+<body>
+<header class=" text-center">
+	<div id="mainHeader">
+		<div id="mainNav">
+			<div class="d-flex justify-content-between">
+				<div class="pt-2">
+					<nav class="navbar navbar-expand-sm justify-center-center">
+						<a class="mr-5 ml-2" href="/normal/index">
+							<img class="" src="../../img/logo.png" width="150px;">
+						</a>
+						<ul class="navbar-nav">
+						    <li class="nav-item mr-2">
+						        <a class="nav-link text-dark small" href="/normal/hosfital1">진료과목별</a>
+						    </li>
+						    <li class="nav-item mr-2">
+						        <a class="nav-link text-dark small" href="/normal/hosfital2">지역별</a>
+						    </li>
+						    <li class="nav-item mr-2">
+						        <a class="nav-link text-dark small" href="/normal/event">이벤트</a>
+						    </li>
+						    <li class="nav-item mr-2">
+						        <a class="nav-link text-dark small" href="/normal/community">커뮤니티</a>
+						    </li>
+						</ul>
+					</nav>
+				</div>
+				<div class="p-2">
+				    <nav class="navbar navbar-expand-sm justify-center-center">
+				        <ul class="navbar-nav">
+				            <li class="nav-item mr-2">
+				            	<a class="nav-link text-dark small" th:if="${session.normalEmail} != null">
+				                    <span th:text="${session.normalEmail} + ' 님 '" ></span>
+				                </a>
+				            </li>
+				            <li class="nav-item">
+				                <a class="nav-link text-dark small" href="/login/normal/logout" th:if="${session.normalEmail} != null">
+				                    <span>로그아웃</span>
+				                </a>
+				                <a class="nav-link text-dark" href="/login" th:unless="${session.normalEmail} != null">
+				                    <i class="fa fa-user-circle-o" aria-hidden="true" style=" font-size:26px; color: #0E2D53;"></i>
+				                </a>
+				            </li>
+				            <li class="nav-item">
+				                <a class="nav-link text-dark mx-2 small" href="/normal/mypageInfo/" th:attrappend="href=${session.normalEmail}" th:if="${session.normalEmail} != null">
+				                    My
+				                </a>
+				                <a class="nav-link text-dark mx-2 small" href="/login" th:unless="${session.normalEmail} != null">
+				                    My
+				                </a>
+				            </li>
+				        </ul>
+				    </nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+	<main class="container">
+	<div class="notText m-5">
+		<h5 class="text-center ">Event Write</h5>
+	</div>
+		<form id="frm" method="POST">	
+			<table class="table">
+				<tbody>
+				<tr>
+					<td>글 번호</td>
+					<td th:text="${item.eventNo}"></td>
+					<td>조회수</td>		
+					<td th:text="${item.eventHitCnt}"></td>		
+				</tr>
+				<tr>
+					<td>작성자</td>
+					<td th:text="${item.hospitalName}"></td>
+					<td>작성일</td>
+					<td th:text="${item.eventCreatedDate}"></td>
+				</tr>
+				<tr>
+					<td>제목</td>
+					<td colspan="3">
+						<input type="text" id="eventTitle" name="eventTitle" th:value="${item.eventTitle}" class="form-control w-100">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+					<textarea title="내용" id="eventComment" name="eventComment" rows="8" th:text="${item.eventComment}"class="form-control w-100"></textarea>
+				</tr>
+				</tbody>
+				<!-- <tfoot>
+					<tr>
+						<td colspan="4">
+						(파라미터명=파라미터 값, 파라미터명=파라미터 값)을 사용하면 2개이상의 파라미터를 서버로 전송할 수 있음 
+							<a th:each="list : ${board.fileList}" th:href="@{/board/downloadBoardFile.do(idx=${list.idx},boardIdx=${list.boardIdx})}" 
+							th:text="|${list.originalFileName}(${list.fileSize} kb)|"></a>						
+						</td>
+					</tr>
+				</tfoot> -->
+			</table>	
+			<input type="hidden" id="eventNo" name="eventNo" th:value="${item.eventNo}">
+			<input type="hidden" id="method" name="_method">
+			
+			<div class="d-flex justify-content-end">
+				<button type="button" id="btnList" class="btn btn-warning">목록으로</button>
+				<button type="button" id="btnUpdate" class="btn btn-warning ml-2">수정하기</button>
+			</div>
+		</form>
+	</main>
+<footer id="mainFooter">>
+	<div class="container">
+		<img alt="" src="../../../img/logo.png" class="mt-3">
+		<p class="small mt-2">회원약관 | 개인정보처리방침 | 이메일무단수집거부 | 영상정보처리기기 운영 및 관리방침 | 회원안내 | 배정기준 | 채용안내 | 광고/임대문의 | 윤리경영 | 기업정보</p>
+		<p class="small pt-1" style="padding: 0; margin: 0">부산 수영구 광남로 70 6층 605호 | 고객센터 051-631-1175</p>
+		<p class="small" style="padding: 0; margin: 0">대표 호스포탈 | 사업자등록번호 123-45-6789 | 통신판매업신고번호 제2021호 | 개인정보 보호 최고 책임자 호스포탈</p>
+		<p class="small text-muted" >BUSANIT© HOSPORTAL PROJECT TEAM PORTFOLIO.</p>
+	</div>
+</footer>
+
+
+</body>
+</html>
