@@ -65,7 +65,7 @@
 </p>
 <img src="https://user-images.githubusercontent.com/48235429/116381914-4eedf600-a850-11eb-9ae3-4631786e1a08.png">
 <img src="https://user-images.githubusercontent.com/48235429/116382054-7a70e080-a850-11eb-8017-da10eef3f0eb.png">
-<img src="https://user-images.githubusercontent.com/48235429/116382551-fd923680-a850-11eb-9e0a-2d19169a3785.png">
+<img src="https://user-images.githubusercontent.com/48235429/116388217-8bbceb80-a856-11eb-9b6f-bff901b12594.png">
 
 <h3>커뮤니티, 이벤트 화면</h3>
 <P>
