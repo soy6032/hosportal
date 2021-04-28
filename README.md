@@ -25,4 +25,4 @@
   <li>API:  Kakao Developer</li>
 </ul>
 <h2>주요기능</h2>
-<img src="https://user-images.githubusercontent.com/48235429/116365189-f9a9e880-a83f-11eb-8912-67e87001a362.png" width="600px">
+<img src="https://user-images.githubusercontent.com/48235429/116366713-8c975280-a841-11eb-8a54-e666378e2637.png" width="600px">
