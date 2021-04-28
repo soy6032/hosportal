@@ -68,10 +68,7 @@
 <img src="https://user-images.githubusercontent.com/48235429/116388217-8bbceb80-a856-11eb-9b6f-bff901b12594.png">
 
 <h3>커뮤니티, 이벤트 화면</h3>
-<P>
-  병원 상세페이지에서 바로 예약하기와 문의하기가 가능합니다. (비회원은 예약과 문의가 불가능합니다.)<br>
-  병원예약과 병원문의가 완료되면 해당 회원은 마이페이지에서 예약, 문의 정보를 확인 가능하며 해당 병원 또한 마이페이지에서 예약, 문의 정보 확인이 가능합니다.
-</p><br>
+<br>
 <p><커뮤니티><p>
 <img src="https://user-images.githubusercontent.com/48235429/116382833-45b15900-a851-11eb-87e4-be16d92f5c4d.png">
 <p><이벤트><p>
