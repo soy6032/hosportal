@@ -9,11 +9,11 @@
 <p>박소영, 김동훈, 양수아, 이정은</p>
 <h2>팀원별 역활</h2>
 <ul>
+  <li>공통: 프로젝트 기획</li> 
   <li>박소영: DB설계, 회원가입, 로그인, 예약, 문의, 마이페이지, 페이징, UI 다자인</li>
   <li>김동훈: 이미지 업로드, 검색, 오류 수정</li>
   <li>양수아: 이벤트 게시판, 커뮤니티 게시판, 댓글, 페이징</li>
   <li>이정은: 프로필, 마이페이지</li>
-  <li>공통: 프로젝트 기획</li> 
 </ul>
 <h2>개발환경</h2>
 <ul>
@@ -23,5 +23,6 @@
   <li>Framework/flatform: Spring Boot, bootstrap, jQuery, Ajax, mybatis</li>
   <li>Tool: STS, Mysql Workbench</li> 
   <li>API:  Kakao Developer</li>
-  <li>mybatis</li>
 </ul>
+<h2>주요기능</h2>
+
