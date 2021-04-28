@@ -35,3 +35,16 @@
 <img src="https://user-images.githubusercontent.com/48235429/116367059-e435be00-a841-11eb-9c89-95a54895aa59.png">
 
 <h3>회원가입</h3>
+<P>개인회원과 병원회원은 각각 다른 회원가입 폼으로 회원가입 됩니다.<br>
+  Ajax를 활용하여 아이디 중복 검사를 합니다.<br>
+  다음에서 제공하는 API를 이용하여 주소 검색 기능 제공 합니다.<br>
+  이미지를 선택하여 프로필사진을 등록할 수 있습니다.
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116368626-80ac9000-a843-11eb-9694-dabb2f145c8a.png">
+
+<h3>병원 목록</h3>
+<P>
+  병원은 진료과목별, 지역별로 검색 할 수 있습니다.<br>
+  Ajax를 활용하여 버튼을 클릭하면 실시간으로 그에 맞는 병원을 보여줍니다.<br>
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116369657-953d5800-a844-11eb-99dd-1e82c413bcc3.png">
