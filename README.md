@@ -72,22 +72,41 @@
   병원 상세페이지에서 바로 예약하기와 문의하기가 가능합니다. (비회원은 예약과 문의가 불가능합니다.)<br>
   병원예약과 병원문의가 완료되면 해당 회원은 마이페이지에서 예약, 문의 정보를 확인 가능하며 해당 병원 또한 마이페이지에서 예약, 문의 정보 확인이 가능합니다.
 </p><br>
-<p>커뮤니티<p>
+<p><커뮤니티><p>
 <img src="https://user-images.githubusercontent.com/48235429/116382833-45b15900-a851-11eb-87e4-be16d92f5c4d.png">
-<p>이벤트<p>
+<p><이벤트><p>
 <img src="https://user-images.githubusercontent.com/48235429/116383117-87420400-a851-11eb-8b39-da59d7cd0dde.png">
 <p>
-    글쓰기<br>
+    <글쓰기><br>
   - 커뮤니티는 일반회원만 글쓰기가 가능하고, 이벤트는 병원회원만 글쓰기가 가능합니다.<br>
   - 해당 게시글을 쓴 회원 자기가 쓴 게시글을 수정, 삭제가 가능합니다.        
 </p>
 <img src="https://user-images.githubusercontent.com/48235429/116384431-ccb30100-a852-11eb-9979-5d85fcc3ba25.png">
-<p>게시글 상세보기</p>
+<p><게시글 상세보기></p>
 <img src="https://user-images.githubusercontent.com/48235429/116383816-2cf57300-a852-11eb-85a4-c2e521149e71.png">
-<p>커뮤니티 댓글 기능<br>
+<p><커뮤니티 댓글 기능><br>
   - 댓글쓰기는 로그인이 되어 있어야합니다.
 </p>
 <img src="https://user-images.githubusercontent.com/48235429/116384181-91183700-a852-11eb-9a15-05688c0d04d8.png">
-
+  
+  
+<h3>마이페이지</h3>
+<P>
+   마이페이지에는 로그인되어있는 회원의 회원정보, 예약정보, 리뷰정보, 문의정보가 보여집니다.
+</p><br>
+<p><회원정보><br>
+  -회원 정보와 프로필사진을 수정할 수 있습니다.
+<p>
+<img src="https://user-images.githubusercontent.com/48235429/116385471-c8d3ae80-a853-11eb-9afb-0ac685be21cd.png">
+<p><예약정보><br>
+  - 회원은 자신이 예약을 예약이 종료되기 전 예약취소를 할 수 있습니다.<br>
+  - 병원에서 예약종료 처리를 하면 리뷰쓰가가 가능합니다.  
+  <p>
+<img src="https://user-images.githubusercontent.com/48235429/116385619-edc82180-a853-11eb-943b-bf3742c2a781.png">
+<p>
+    <문의정보><br>
+  -문의하기를 남긴 병원쪽에서 댓글로 문의 답병을 줄 수 있습니다.
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116385969-4e575e80-a854-11eb-9ff3-9bc2004be30b.png">
 
 
