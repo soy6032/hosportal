@@ -3,5 +3,12 @@
 
 <h3>개발환경</h3>
 <ol>
-  <li>자바</li>
+  <li>java</li>
+  <li>spring boot</li>
+  <li>html</li>
+  <li>css</li>
+  <li>javascript</li>
+  <li>ajax</li>
+  <li>mybatis</li>
+  
 </ol>
