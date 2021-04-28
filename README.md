@@ -27,3 +27,5 @@
 <h2>주요기능</h2>
 <h3>메인</h3>
 <img src="https://user-images.githubusercontent.com/48235429/116366713-8c975280-a841-11eb-8a54-e666378e2637.png" width="600px">
+<h3>로그인</h3>
+<img src="https://user-images.githubusercontent.com/48235429/116367059-e435be00-a841-11eb-9c89-95a54895aa59.png" width="600px">
