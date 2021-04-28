@@ -26,6 +26,12 @@
 </ul>
 <h2>주요기능</h2>
 <h3>메인</h3>
-<img src="https://user-images.githubusercontent.com/48235429/116366713-8c975280-a841-11eb-8a54-e666378e2637.png" width="800px">
+<p>메인 페이지에서 최근 입점 병원, 최대 조회수 병원, 최신 리뷰 병원을 순서대로 5개씩 미리 확인이 가능하도록 구현하였습니다.<br>
+  하단에서 이벤트와 커뮤니티 게시글을 최신순으로 미리보기가 가능합니다.
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116366713-8c975280-a841-11eb-8a54-e666378e2637.png">
 <h3>로그인</h3>
-<img src="https://user-images.githubusercontent.com/48235429/116367059-e435be00-a841-11eb-9c89-95a54895aa59.png" width="800px">
+<P>개인회원과 병원회원은 각각 다른 폼에서 로그인되고 로그인 성공 시 각각 다른 페이지로 이동됩니다.</p>
+<img src="https://user-images.githubusercontent.com/48235429/116367059-e435be00-a841-11eb-9c89-95a54895aa59.png">
+
+<h3>회원가입</h3>
