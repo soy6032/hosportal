@@ -48,3 +48,46 @@
   Ajax를 활용하여 버튼을 클릭하면 실시간으로 그에 맞는 병원을 보여줍니다.<br>
 </p>
 <img src="https://user-images.githubusercontent.com/48235429/116369657-953d5800-a844-11eb-99dd-1e82c413bcc3.png">
+
+<h3>병원 상세 화면</h3>
+<P>
+ 일반회원으로 로그인 되었있는 회원은 병원예약과 병원문의가 가능합니다.<br>
+  카카오맵을 이용한 위치정보와 예약 했었던 회원들이 남긴 리뷰 정보를 볼수 있습니다.
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116380797-4648f000-a84f-11eb-8b42-03d30423b5d8.png">
+<img src="https://user-images.githubusercontent.com/48235429/116381506-ec94f580-a84f-11eb-835b-c94b0e66243b.png">
+
+<h3>병원 예약, 문의화면</h3>
+<P>
+  병원 상세페이지에서 바로 예약하기와 문의하기가 가능합니다. (비회원은 예약과 문의가 불가능합니다.)<br>
+  병원예약과 병원문의가 완료되면 해당 회원은 마이페이지에서 예약, 문의 정보를 확인 가능하며 해당 병원 또한 마이페이지에서 예약, 문의 정보 확인이 가능합니다.
+  
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116381914-4eedf600-a850-11eb-9ae3-4631786e1a08.png">
+<img src="https://user-images.githubusercontent.com/48235429/116382054-7a70e080-a850-11eb-8017-da10eef3f0eb.png">
+<img src="https://user-images.githubusercontent.com/48235429/116382551-fd923680-a850-11eb-9e0a-2d19169a3785.png">
+
+<h3>커뮤니티, 이벤트 화면</h3>
+<P>
+  병원 상세페이지에서 바로 예약하기와 문의하기가 가능합니다. (비회원은 예약과 문의가 불가능합니다.)<br>
+  병원예약과 병원문의가 완료되면 해당 회원은 마이페이지에서 예약, 문의 정보를 확인 가능하며 해당 병원 또한 마이페이지에서 예약, 문의 정보 확인이 가능합니다.
+</p><br>
+<p>커뮤니티<p>
+<img src="https://user-images.githubusercontent.com/48235429/116382833-45b15900-a851-11eb-87e4-be16d92f5c4d.png">
+<p>이벤트<p>
+<img src="https://user-images.githubusercontent.com/48235429/116383117-87420400-a851-11eb-8b39-da59d7cd0dde.png">
+<p>
+    글쓰기<br>
+  - 커뮤니티는 일반회원만 글쓰기가 가능하고, 이벤트는 병원회원만 글쓰기가 가능합니다.<br>
+  - 해당 게시글을 쓴 회원 자기가 쓴 게시글을 수정, 삭제가 가능합니다.        
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116384431-ccb30100-a852-11eb-9979-5d85fcc3ba25.png">
+<p>게시글 상세보기</p>
+<img src="https://user-images.githubusercontent.com/48235429/116383816-2cf57300-a852-11eb-85a4-c2e521149e71.png">
+<p>커뮤니티 댓글 기능<br>
+  - 댓글쓰기는 로그인이 되어 있어야합니다.
+</p>
+<img src="https://user-images.githubusercontent.com/48235429/116384181-91183700-a852-11eb-9a15-05688c0d04d8.png">
+
+
+
