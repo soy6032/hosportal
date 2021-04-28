@@ -20,7 +20,7 @@
   <li>Programming Language: JAVA, HTML, Javascript</li>
   <li>Server : Tomcat9</li>
   <li>DB: Mysql</li>
-  <li>Framework/flatform: Spring Boot, bootstrap, jQuery, Ajax, mybatis</li>
+  <li>Framework/flatform: Spring Boot, bootstrap, jQuery, Ajax, mybatis, Gradle</li>
   <li>Tool: STS, Mysql Workbench</li> 
   <li>API:  Kakao Developer</li>
 </ul>
