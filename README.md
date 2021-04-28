@@ -5,10 +5,11 @@
 <p>또한 병원 회원도 사이트를 이용해 이벤트를 등록하거나 좋은 후기들로 병원 홍보 효과를 볼 수 있습니다</p>
 <h2>개발환경</h2>
 <ul>
-  <li>java</li>
-  <li>spring boot</li>
-  <li>javascript</li>
-  <li>ajax</li> 
-  <li>mysql</li>
+  <li>Programming Language: JAVA, HTML, Javascript</li>
+  <li>Server : Tomcat9</li
+  <li>DB: Mysql</li>
+  <li>Framework/flatform: Spring Boot, bootstrap, jQuery, Ajax, mybatis</li>
+  <li>Tool: STS, Mysql Workbench</li> 
+  <li>API:  Kakao Developer</li>
   <li>mybatis</li>
 </ul>
