@@ -96,7 +96,7 @@
 <p>
 <img src="https://user-images.githubusercontent.com/48235429/116385471-c8d3ae80-a853-11eb-9afb-0ac685be21cd.png">
 <p><예약정보><br>
-  - 회원은 자신이 예약을 예약이 종료되기 전 예약취소를 할 수 있습니다.<br>
+  - 회원은 자신의 예약을 예약이 종료되기 전 예약취소를 할 수 있습니다.<br>
   - 병원에서 예약종료 처리를 하면 리뷰쓰가가 가능합니다.  
   <p>
 <img src="https://user-images.githubusercontent.com/48235429/116385619-edc82180-a853-11eb-943b-bf3742c2a781.png">
