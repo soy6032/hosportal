@@ -110,4 +110,3 @@
 <img src="https://user-images.githubusercontent.com/48235429/116385969-4e575e80-a854-11eb-9ff3-9bc2004be30b.png">
 
 
-<h1 style="color:red;">감사합니다.</h1>
