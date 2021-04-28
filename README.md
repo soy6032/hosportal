@@ -51,7 +51,7 @@
 
 <h3>병원 상세 화면</h3>
 <P>
- 일반회원으로 로그인 되었있는 회원은 병원예약과 병원문의가 가능합니다.<br>
+ 일반회원으로 로그인 되어있는 회원은 병원예약과 병원문의가 가능합니다.<br>
   카카오맵을 이용한 위치정보와 예약 했었던 회원들이 남긴 리뷰 정보를 볼수 있습니다.
 </p>
 <img src="https://user-images.githubusercontent.com/48235429/116380797-4648f000-a84f-11eb-8b42-03d30423b5d8.png">
@@ -105,8 +105,9 @@
 <img src="https://user-images.githubusercontent.com/48235429/116385619-edc82180-a853-11eb-943b-bf3742c2a781.png">
 <p>
     <문의정보><br>
-  -문의하기를 남긴 병원쪽에서 댓글로 문의 답병을 줄 수 있습니다.
+  -문의하기를 남긴 병원쪽에서 댓글로 문의 답을 줄 수 있습니다.
 </p>
 <img src="https://user-images.githubusercontent.com/48235429/116385969-4e575e80-a854-11eb-9ff3-9bc2004be30b.png">
 
 
+<h1 style="color:red;">감사합니다.</h1>
